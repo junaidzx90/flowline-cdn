@@ -107,7 +107,7 @@ Ensure you have the following files available in your project:
 
 5. **Events**
 
-```javascript
+    ```javascript
     $(document).on("dragged", function(event, id){
         console.log(id);
     });
@@ -120,7 +120,7 @@ Ensure you have the following files available in your project:
     $(document).on("delete", function(event, id){
         console.log(id);
     });
-```
+    ```
 
 ## Customization
 
