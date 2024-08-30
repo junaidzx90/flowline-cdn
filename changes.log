@@ -1,0 +1,7 @@
+v1.0.1 Changes
+
+* Refine Ids to make id attribute optional
+* Fix Layout issues
+* Fix Background issues to overlaping
+* Fix lines positions according to the wrapper
+* Fix Infinite moving objects

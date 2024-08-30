@@ -48,10 +48,10 @@ Ensure you have the following files available in your project:
    Add the following JavaScript code to initialize FlowLine once the document is ready:
 
    ```javascript
-   $(document).ready(function () {
+    $(document).ready(function () {
        var configurators = [
            {
-               id: 'config1',
+               id: 'config1', // Optional
                heading: `Heading 1`,
                className: `flowline-configurator-1`,
                content: `<p style="color: hsla(39,100%,68%,1); margin:0;">Content for configurator 1...</p>`,
@@ -60,9 +60,18 @@ Ensure you have the following files available in your project:
                    y: 50
                },
                connectors: [
-                   { id: 'c1' , label: 'Menu List' },
-                   { id: 'c2', label: 'Menu PopUp' },
-                   { id: 'c3', label: 'User Alert' }
+                    {    
+                        id: 'c1', // Optional
+                        label: 'Menu List' 
+                    },
+                    { 
+                        id: 'c2', // Optional
+                        label: 'Menu PopUp' 
+                    },
+                    { 
+                        id: 'c3', // Optional
+                        label: 'User Alert' 
+                    }
                ]
            }
        ];
@@ -74,8 +83,8 @@ Ensure you have the following files available in your project:
                className: 'connector menu',
                content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit...',
                positions: {
-                   x: 100,
-                   y: 350
+                   x: 50,
+                   y: 400
                }
            },
            {
@@ -85,7 +94,7 @@ Ensure you have the following files available in your project:
                content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit...',
                positions: {
                    x: 300,
-                   y: 350
+                   y: 400
                }
            },
            {
@@ -94,8 +103,8 @@ Ensure you have the following files available in your project:
                className: 'connector email',
                content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit...',
                positions: {
-                   x: 500,
-                   y: 350
+                   x: 550,
+                   y: 400
                }
            }
        ];
