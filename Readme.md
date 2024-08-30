@@ -22,7 +22,7 @@ Ensure you have the following files available in your project:
 
    ```html
    <link rel="stylesheet" href="jquery-ui.css">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/junaidzx90/flowline-cdn@v1.0.0/flowline.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/junaidzx90/flowline-cdn@v1.0.1/flowline.min.css">
    ```
 
 2. **Create Container**
@@ -40,7 +40,7 @@ Ensure you have the following files available in your project:
    ```html
    <script src="jquery-3.6.0.min.js"></script>
    <script src="jquery-ui.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/gh/junaidzx90/flowline-cdn@v1.0.0/flowline.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/gh/junaidzx90/flowline-cdn@v1.0.1/flowline.min.js"></script>
    ```
 
 4. **Initialize FlowLine**
